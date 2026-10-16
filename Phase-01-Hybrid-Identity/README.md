@@ -1,1 +1,4 @@
-
+- Establish identity synchronisation between Active Directory and Microsoft Entra ID
+- Enable Password Hash Synchronisation
+- Minimise risk by limiting synchronisation scope
+- Validate synchronisation before wider rollout
