@@ -2,7 +2,10 @@
 
 ## Overview
 
-This repository documents the planning, deployment and management of a Microsoft Intune implementation within a production environment.
+This repository documents a real-world Microsoft Intune implementation within a production environment.
+The project began with the deployment of Microsoft Entra Connect to establish hybrid identity between on-premises Active Directory and Microsoft 365. Password Hash Synchronization (PHS) was implemented, followed by a controlled user and device pilot before progressing to cloud-managed endpoints through Microsoft Intune.
+
+All company-specific information has been removed or anonymised.
 
 ## Project Goals
 
