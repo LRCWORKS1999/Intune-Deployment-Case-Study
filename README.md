@@ -1,36 +1,38 @@
-# Enterprise Intune Deployment Case Study
+# Hybrid Identity and Intune Deployment Case Study
 
-## Overview
+This repository documents a real-world Microsoft Intune deployment performed within a production environment.
 
-This repository documents a real-world Microsoft Intune implementation within a production environment.
-The project began with the deployment of Microsoft Entra Connect to establish hybrid identity between on-premises Active Directory and Microsoft 365. Password Hash Synchronization (PHS) was implemented, followed by a controlled user and device pilot before progressing to cloud-managed endpoints through Microsoft Intune.
+The project included:
 
-All company-specific information has been removed or anonymised.
+- Microsoft Entra Connect deployment
+- Password Hash Synchronisation (PHS)
+- OU filtering
+- User pilot deployment
+- Device pilot deployment
+- Microsoft Intune configuration
+- Security hardening
+- Production rollout
 
-## Project Goals
+## Project Phases
 
-- Centralise endpoint management
-- Improve security compliance
-- Standardise device configuration
-- Enable remote administration
-- Improve patch management
+### Phase 1 - Hybrid Identity
+Deployment of Microsoft Entra Connect and Password Hash Sync.
 
-## Technologies Used
+### Phase 2 - User Pilot
+Pilot testing with selected users and security group targeting.
 
-- Microsoft Intune
-- Microsoft Entra ID
-- Microsoft Defender
-- Windows Update for Business
-- Conditional Access
-- BitLocker
+### Phase 3 - Device Pilot
+Testing Hybrid Join and Intune enrolment.
 
-## Key Outcomes
+### Phase 4 - Intune Configuration
+Compliance policies, configuration profiles, update rings and applications.
 
-- Centralised endpoint management
-- Automated policy deployment
-- Improved compliance visibility
-- Standardised security configuration
+### Phase 5 - Security Hardening
+Implementation of endpoint security controls.
 
-## Note
+### Phase 6 - Production Rollout
+Gradual migration of users and devices to Intune management.
 
-All company identifiers, user information and sensitive configuration details have been removed or anonymised.
+## Lessons Learned
+
+The project highlighted the value of pilot deployments, OU filtering and continuous monitoring throughout implementation.
