@@ -1,7 +1,6 @@
 # Hybrid Identity and Intune Deployment
 
-This repository documents a Microsoft Entra ID and Intune deployment carried out within a production environment.
-
+This repository documents the planning, implementation and rollout of Microsoft Entra ID hybrid identity and Microsoft Intune device management within a production environment.
 The project included:
 
 - Active Directory identity preparation
