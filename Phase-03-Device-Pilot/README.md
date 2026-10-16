@@ -1,5 +1,18 @@
-Following successful user synchronisation, a dedicated pilot OU was created within Active Directory for device testing.
+# Phase 3 - Device Pilot
 
-A limited number of test devices were moved into the pilot OU and configured for Microsoft Entra Hybrid Join and Intune enrolment testing.
+## Objective
 
-This approach allowed validation without impacting production devices.
+Validate Hybrid Entra Join and Microsoft Intune enrolment for a limited number of devices before wider deployment.
+
+## Actions Completed
+
+- Created dedicated pilot device OU
+- Moved test devices into pilot OU
+- Enabled Hybrid Entra Join
+- Configured automatic Intune enrolment
+- Verified successful device registration
+- Confirmed devices appeared within Intune
+
+## Outcome
+
+Pilot devices successfully registered with Microsoft Entra ID and enrolled into Microsoft Intune, confirming readiness for broader deployment.
